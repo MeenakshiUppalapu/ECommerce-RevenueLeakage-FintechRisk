@@ -35,8 +35,10 @@ In strict alignment with Canadian data privacy frameworks, including the Persona
 [Executive Risk Management KPI Dashboard]
 ```
 
-### 1. Data Engineering & Synthesis (Python)
-Disparate relational structures (Relational e-commerce logs and financial credit risk tables) were programmatically aligned using Python (`pandas`). Because the raw sources were anonymized, records were mapped side-by-side using horizontal index concatenation to simulate a unified production environment linking user checkout scale with financial income tiers.
+### 1. AI-Driven Data Engineering & Synthesis (Python + Generative AI)
+* **The Challenge:** Real-world banking credit records and e-commerce checkout histories are heavily protected under privacy laws, creating extreme data scarcity for testing embedded underwriting logic.
+* **The AI Solution:** I strategically utilized Generative AI as a data engineering accelerator to design and synthesize a compliant credit bureau dataset. By feeding AI specific statistical parameters (such as standard distributions for default rates, credit brackets, and debt-to-income correlations), I programmatically generated realistic risk indicators.
+* **Integration:** These AI-generated credit profiles were horizontally merged with anonymized e-commerce transaction logs using Python (`pandas`), successfully simulating a robust, privacy-compliant production ecosystem that mirrors real-world digital retail lending risk.
 
 ### 2. Analytical & Feature Testing Layer (SQL)
 Advanced Common Table Expressions (CTEs) and conditional aggregations were developed to test business hypotheses and map data distributions prior to pushing fields into the visualization engine:
