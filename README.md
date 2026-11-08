@@ -45,8 +45,8 @@ Advanced Common Table Expressions (CTEs) and conditional aggregations were devel
 * **Income Tier Risk Matrix:** Segmented consumer profiles to isolate concentrations of credit default velocity (`bnpl_default_status`).
 * **Revenue Leakage Mapping:** Aggregated and quantified transactional volume lost entirely to bad debt across variant cart sizes (`total_ecom_spend`).
 
-### 3. Reporting & Dimensional Modeling Layer (Power BI)
-Developed a fully interactive analytical model using customized DAX logical strings. Built conditional field mappings directly into the data matrix to group individual records into macro financial buckets, enabling seamless vertical filtering while utilizing ascending logical sort overrides to ensure professional dashboard usability.
+### 3. Reporting & Modeling Layer (Power BI)
+Developed a high-performance, denormalized Flat Data Model within Power BI. Rather than utilizing a multi-table Star Schema, all synthesized transaction metrics and categorical text attributes live side-by-side inside a single master table. This architectural decision eliminates cross-table relationship overhead, maximizes query processing speeds for DAX metrics, and leverages ascending logical sort overrides to ensure clean, professional dashboard usability.
 
 ---
 
