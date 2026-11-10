@@ -2,7 +2,7 @@
 **Target Industry Alignment:** Digital Retail Margin Optimization & Consumer Credit Risk Assessment  
 
 ## 📊 Executive Dashboard Preview
-![Dashboard Layout Preview](dashboard_preview.png)
+![Dashboard Layout Preview](Dashboard_preview.png)
 
 *(Note: The raw, fully modeled Power BI application file `ECommerceRevenueLeakageFintechRisk.pbix` is uploaded directly to the root directory of this repository for local exploration, formula auditing, and DAX metric validation).*
 
